@@ -1,11 +1,11 @@
-package com.lesliefish.test01;
+package com.lesliefish.test01overview;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-public class Java8Tester {
+public class Java8TesterOverView {
     // java7排序
     private void sortUsingJava7(List<String> names) {
         Collections.sort(names, new Comparator<String>() {
@@ -38,7 +38,7 @@ public class Java8Tester {
         names2.add("Kalpesh ");
 
 
-        Java8Tester tester = new Java8Tester();
+        Java8TesterOverView tester = new Java8TesterOverView();
         System.out.println("Sort using Java 7 syntax: ");
 
         tester.sortUsingJava7(names1);
