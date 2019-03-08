@@ -15,7 +15,7 @@ public class FunctionalInterface {
         eval(list, n -> n % 2 == 0);
 
         System.out.println("Print numbers greater than 3:"); // 大于3的数
-        eval(list, n-> n > 3 );
+        eval(list, n -> n > 3);
     }
 
 
