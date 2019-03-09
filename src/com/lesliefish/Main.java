@@ -7,6 +7,7 @@ import com.lesliefish.test04functionalinterface.FunctionalInterface;
 import com.lesliefish.test05defaultmethods.DefaultMethodsTester;
 import com.lesliefish.test06streams.StreamsTester;
 import com.lesliefish.test07optional.OptionalTester;
+import com.lesliefish.test08nashornjavascript.NashornJavaScriptTester;
 
 public class Main {
 
@@ -16,8 +17,9 @@ public class Main {
         // LambdaTester02.test();
         // MethodReferencesTester.test();
         // FunctionalInterface.test();
-        //DefaultMethodsTester.test();
-        //StreamsTester.test();
-        OptionalTester.test();
+        // DefaultMethodsTester.test();
+        // StreamsTester.test();
+        // OptionalTester.test();
+        NashornJavaScriptTester.test();
     }
 }
