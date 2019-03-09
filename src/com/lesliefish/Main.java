@@ -5,6 +5,7 @@ import com.lesliefish.test02lambdaexpressions.LambdaTester02;
 import com.lesliefish.test03methodreferences.MethodReferencesTester;
 import com.lesliefish.test04functionalinterface.FunctionalInterface;
 import com.lesliefish.test05defaultmethods.DefaultMethodsTester;
+import com.lesliefish.test06streams.StreamsTester;
 
 public class Main {
 
@@ -14,6 +15,7 @@ public class Main {
         // LambdaTester02.test();
         // MethodReferencesTester.test();
         // FunctionalInterface.test();
-        DefaultMethodsTester.test();
+        //DefaultMethodsTester.test();
+        StreamsTester.test();
     }
 }
