@@ -8,6 +8,7 @@ import com.lesliefish.test05defaultmethods.DefaultMethodsTester;
 import com.lesliefish.test06streams.StreamsTester;
 import com.lesliefish.test07optional.OptionalTester;
 import com.lesliefish.test08nashornjavascript.NashornJavaScriptTester;
+import com.lesliefish.test09newtime.NewTimeTester;
 
 public class Main {
 
@@ -20,6 +21,7 @@ public class Main {
         // DefaultMethodsTester.test();
         // StreamsTester.test();
         // OptionalTester.test();
-        NashornJavaScriptTester.test();
+        // NashornJavaScriptTester.test();
+        NewTimeTester.test();
     }
 }
