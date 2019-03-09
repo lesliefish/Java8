@@ -6,6 +6,7 @@ import com.lesliefish.test03methodreferences.MethodReferencesTester;
 import com.lesliefish.test04functionalinterface.FunctionalInterface;
 import com.lesliefish.test05defaultmethods.DefaultMethodsTester;
 import com.lesliefish.test06streams.StreamsTester;
+import com.lesliefish.test07optional.OptionalTester;
 
 public class Main {
 
@@ -16,6 +17,7 @@ public class Main {
         // MethodReferencesTester.test();
         // FunctionalInterface.test();
         //DefaultMethodsTester.test();
-        StreamsTester.test();
+        //StreamsTester.test();
+        OptionalTester.test();
     }
 }
