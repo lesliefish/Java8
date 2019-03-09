@@ -9,6 +9,7 @@ import com.lesliefish.test06streams.StreamsTester;
 import com.lesliefish.test07optional.OptionalTester;
 import com.lesliefish.test08nashornjavascript.NashornJavaScriptTester;
 import com.lesliefish.test09newtime.NewTimeTester;
+import com.lesliefish.test10base64.Base64Tester;
 
 public class Main {
 
@@ -22,6 +23,7 @@ public class Main {
         // StreamsTester.test();
         // OptionalTester.test();
         // NashornJavaScriptTester.test();
-        NewTimeTester.test();
+        // NewTimeTester.test();
+        Base64Tester.test();
     }
 }
